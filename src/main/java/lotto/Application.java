@@ -12,7 +12,14 @@ public class Application {
 
     public static int recieveAmount(){
          Integer amount = Integer.parseInt(Console.readLine());
+
+         validateAmount(amount);
          return amount / UNIT;
     }
 
+    public static void validateAmount(Integer amount){
+        if(amount % 1000 != 0){
+            throw new IllegalArgumentException("구입 금액은 " + UNIT + "원 단위 입니다.");
+        }
+    }
 }
