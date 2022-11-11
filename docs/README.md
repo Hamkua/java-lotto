@@ -4,7 +4,7 @@
 
 - [x] 로또 구입 금액을 입력받는 메서드 `recieveAmount`
   - [x] 로또 구입 금액이 1000원 단위로 나누어 떨어지는지를 검증하는 메서드 `validateRemainderIsZero`
-  - [] 로또 구입 금액이 1000원 이상인지를 검증하는 메서드
+  - [x] 로또 구입 금액이 1000원 이상인지를 검증하는 메서드 `validateQuotientIsMoreThanZero`
 
   
 - [] 특정 횟수만큼 Lotto 객체를 생성해 컬렉션에 담는 메서드
