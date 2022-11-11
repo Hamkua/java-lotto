@@ -7,7 +7,7 @@
   - [x] 로또 구입 금액이 1000원 이상인지를 검증하는 메서드 `validateQuotientIsMoreThanZero`
 
   
-- [] 특정 횟수만큼 Lotto 객체를 생성해 컬렉션에 담는 메서드
+- [x] 특정 횟수만큼 Lotto 객체를 생성해 컬렉션에 담는 LottoList 클래스
 
 
 - [x] Lotto클래스의 생성자에 전달된 리스트에 중복이 존재하는지 검증하는 메서드
