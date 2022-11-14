@@ -37,4 +37,23 @@ public class Lotto {
             }
         }
     }
+
+    @Override
+    public String toString() {
+        String lottoInfo = "";
+        for(int i = 0; i < numbers.size(); i++){
+            if(i + 1 == numbers.size()) {
+                lottoInfo += numbers.get(i);
+                break;
+            }
+            lottoInfo += (numbers.get(i) + ", ");
+
+        }
+
+        return "[" + lottoInfo + "]";
+    }
+
+    public List<Integer> getNumbers() {
+        return numbers;
+    }
 }
